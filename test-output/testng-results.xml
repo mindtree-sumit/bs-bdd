@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-21T22:41:33 IST" name="Default suite" finished-at="2021-11-21T22:45:33 IST" duration-ms="239122">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-11-21T22:41:33 IST" name="Default test" finished-at="2021-11-21T22:45:33 IST" duration-ms="239122">
+      <class name="com.bdd.testrunner.TestRun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:41:33 IST" name="setUpClass" finished-at="2021-11-21T22:41:34 IST" duration-ms="807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ee8c869]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:41:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:41:58 IST" duration-ms="23571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Filter Low to High"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Filter Validate]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:41:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:42:14 IST" duration-ms="16526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Filter High to Low"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Filter Validate]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:42:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:42:31 IST" duration-ms="16357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding Rs 500 of 2 Card"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Adding multiple Gift Card and checking the total]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:42:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:42:49 IST" duration-ms="18724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title Validation of Shop Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate the shop category header title Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:42:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:43:09 IST" duration-ms="19854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate pin code for valid test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[PinCode Validate for valid and invalid test case]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:43:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:43:28 IST" duration-ms="18799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate pin code for valid test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[PinCode Validate for valid and invalid test case]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:43:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:43:45 IST" duration-ms="16570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate pin code for invalid test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[PinCode Validate for valid and invalid test case]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:43:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:43:56 IST" duration-ms="11637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate pin code for invalid test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[PinCode Validate for valid and invalid test case]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:43:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:44:15 IST" duration-ms="18447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Sign in with valid test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign in to the bigsmall account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:44:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:44:28 IST" duration-ms="12782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Signin with invalid test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign in to the bigsmall account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:44:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:44:42 IST" duration-ms="14516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Signin with invalid test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign in to the bigsmall account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:44:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:44:56 IST" duration-ms="13706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Is search page show similar product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search the item and check relevant product is display]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:44:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T22:45:33 IST" duration-ms="36678" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding product in wishlist and check final wishlisted"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add mulitple product and checking the item in wishlist]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.bdd.stepdefinition.WishListSteps.validate_the_number_of_product_in_wishlist(WishListSteps.java:42)
+at ✽.Validate the number of product in wishlist(file:///C:/Users/M1073102/Documents/Eclipse/BDDbigsmall/Features/WishList_TC.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bdd.testrunner.TestRun@c05002a0]" started-at="2021-11-21T22:45:33 IST" name="tearDownClass" finished-at="2021-11-21T22:45:33 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.bdd.testrunner.TestRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
